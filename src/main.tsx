@@ -22,6 +22,7 @@ ReactDOM.createRoot(root!).render(
             <Route path="/posts" element={<Posts />} />
             <Route path="/posts/:slug" element={<RenderPost />} />
             <Route path="/create-post" element={<Tiptap />} />
+            <Route path="/edit-post/:id" element={<Tiptap />} />
             <Route path="/user" element={<div>user</div>} />
           </Route>
         </Routes>
